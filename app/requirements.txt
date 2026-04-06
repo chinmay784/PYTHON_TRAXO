@@ -4,3 +4,4 @@ pymongo
 bcrypt
 python-jose
 python-dotenv
+email-validator
