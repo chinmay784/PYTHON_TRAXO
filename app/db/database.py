@@ -33,6 +33,7 @@ from app.core.config import MONGO_URI, DB_NAME
 
 client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
+print("Connected to MongoDB")
 
 # users_collection = db["users"]
 # ✅ NEW COLLECTION
